@@ -29,6 +29,7 @@ class AnalogClock {
            minute = (int)minute;
          }
          
+        
          System.out.println("Minute degrees: " + (minute*6));
 
         // closing the scanner object
