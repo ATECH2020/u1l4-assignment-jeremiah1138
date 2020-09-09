@@ -10,7 +10,7 @@ class SecondsPastMidnight {
         int hours;
 
         //Reads int from user
-        System.out.println("How many seconds past midnight have passed?");
+
         int number = scanner.nextInt();
 
         //Your code goes here
@@ -18,7 +18,7 @@ class SecondsPastMidnight {
         minutes = seconds/60;
         hours= minutes/60;
 
-        System.out.println("Total hours past: " + hours +"\nTotal minutes past: " + minutes);
+        System.out.print(hours + " " + minutes);
 
         // closing the scanner object
         scanner.close();
