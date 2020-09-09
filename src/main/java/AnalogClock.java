@@ -8,7 +8,6 @@ class AnalogClock {
 
         //Creates a new scanner for user input
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Degrees of hours: ");
         double userDouble = scanner.nextDouble();
         //Reads ints from user
 
@@ -30,7 +29,7 @@ class AnalogClock {
          }
          
         
-         System.out.println("Minute degrees: " + (minute*6));
+         System.out.print(minute*6);
 
         // closing the scanner object
         scanner.close();
