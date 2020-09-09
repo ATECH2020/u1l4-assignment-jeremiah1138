@@ -29,7 +29,7 @@ class AnalogClock {
          }
          
         
-         System.out.print(minute*6);
+         System.out.print((int)minute*6);
 
         // closing the scanner object
         scanner.close();
